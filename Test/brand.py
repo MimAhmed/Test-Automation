@@ -20,8 +20,8 @@ class BrandPageTest(unittest.TestCase):
         driver.get(locators.BASE_URl)
         brands = ProductBrands(driver)
         brands.close_popup_button()
-        time.sleep(10)
         brands.click_speaker()
+        time.sleep(3)
 
     @classmethod
     def tearDownClass(cls):

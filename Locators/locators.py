@@ -5,7 +5,7 @@ class Locators:
     username_textbox_xpath = "phone"
     password_textbox_xpath = "password"
     login_button_xpath = "//button[@type='submit']"
-    speaker_brand_page_xpath = "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[9]/a[1]/a"
+    speaker_brand_page_xpath = "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[6]/a[1]"
     career_tab_xpath = "//body/div[@id='__next']/div[@class='min-h-screen']/div[@class='layouts___StyledDiv-sc-6pqol9-0 iJmXUL']/div[@class='container']/div[@class='flex flex-col-reverse md:flex-row']/div[@class='flex-1 my-8 mr-10']/div[1]"
 
 
